@@ -1,0 +1,34 @@
+
+11057 - Exact Sum
+Time limit: 3.000 seconds
+
+Peter recebeu dinheiro de seus pais esta semana e quer gastar tudo isso comprando livros. Mas ele faz
+Não leia um livro tão rápido, porque ele gosta de curtir cada palavra enquanto lê. Desta forma,
+leva uma semana para terminar um livro.
+Como Peter recebe dinheiro a cada duas semanas, ele decidiu comprar dois livros, então ele pode lê-los até
+receber mais dinheiro. Como ele deseja gastar todo o dinheiro, ele deve escolher dois livros cujos preços
+somado é igual ao dinheiro que ele tem. É um pouco difícil encontrar esses livros, então Peter
+pede sua ajuda para encontrá-los.
+
+Entrada
+Cada caso de teste começa com 2 ≤ N ≤ 10000, o número de livros disponíveis. A próxima linha terá N
+inteiros, representando o preço de cada livro, um livro custa menos de 1000001. Depois, há outro
+linha com um inteiro M, representando quanto dinheiro Peter tem. Há uma linha em branco após cada teste
+caso. A entrada é finalizada pelo final do arquivo (EOF).
+
+Saída
+Para cada caso de teste, você deve imprimir a mensagem: "Peter deve comprar livros cujos preços sejam i e
+j. ', onde i e j são os preços dos livros cuja soma é igual a M e i ≤ j. Você pode considerar isso
+é sempre possível encontrar uma solução, se houver várias soluções imprima a solução que minimiza
+a diferença entre os preços i e j. Após cada caso de teste, você deve imprimir uma linha em branco.
+
+Sample Input
+2
+40 40
+80
+5
+10 2 6 8 4
+10
+Sample Output
+Peter should buy books whose prices are 40 and 40.
+Peter should buy books whose prices are 4 and 6.

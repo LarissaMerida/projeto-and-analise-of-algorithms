@@ -1,0 +1,60 @@
+
+10611 - The Playboy Chimp
+Time limit: 3.000 seconds
+
+Era uma vez, vivia um chimpanzé
+chamado Luchu Bandor (também conhecido como Playboy Chimp).
+Luchu foi infeliz casado com Bunty Mona,
+um chimpanzé curto mas bonitinho. Luchu foi
+alto e bonito - ele estava se sentindo desconfortável
+levando Bunty para lugares públicos junto com
+ele. As pessoas olhavam para eles o tempo todo.
+Em um ponto, Luchu não aguentava mais
+e ele decidiu fazer alguma justiça ao seu nome.
+Ele começou a procurar uma nova esperança na Lady
+Escola secundária dos chimpanzés. Todos os dias Luchu
+suba em uma árvore de bambu e espere pela manhã
+broca para começar. De lá ele podia ver cada um e
+cada senhora chimpanzé fazendo sua rotina de exercícios. Agora,
+Luchu estava procurando a mais alta senhora chimpanzé que
+seria mais curto que ele; ele também gostaria de
+considere alguém um pouco mais alto que ele. Mas
+alguém de sua mesma altura nunca estará em seu
+Lista. Todas as manhãs Luchu pega uma linha de senhora
+chimpanzés e encontra os dois melhores de acordo com a sua
+definir critério. Seu trabalho foi facilitado pelo
+fato de que os chimpanzés senhora em cada linha são ordenados
+pela sua altura, o mais curto está na frente
+e o mais alto está na parte de trás. Sua tarefa é
+para ajudar Luchu em um dia em particular para encontrar dois
+lady chimps: a mais alta mais baixa que ele e
+o mais baixo um mais alto que ele.
+
+Haverá apenas um conjunto de entradas para esse problema.
+A primeira linha de entrada fornece um número N (1 ≤ N ≤ 50000), o número de chimpanzés femininos
+a linha. Na próxima linha você teria N inteiros (no intervalo de 1 a 231 - 1 dando as alturas de
+os N chimpanzés. Haveria um único espaço depois de cada número. Você pode supor que os chimpanzés
+são ordenados em ordem não decrescente de suas alturas. Na próxima linha você teria um inteiro Q
+(1 ≤ Q ≤ 25000) fornecendo o número de consultas. Então, na próxima linha, Q consultas seguirão. Então você
+teria números Q dando a altura de Luchu! Não se preocupe, Luchu é da terra onde as pessoas
+pode ter 3 datas de nascimento; Q alturas para um chimpanzé não fará diferença aqui. Os números Q são
+listado em uma linha e seu intervalo de 1 a 231-1, e como antes você iria encontrar um único espaço depois
+cada número de consulta. Os números de consulta não devem vir em nenhuma ordem específica.
+
+Saída
+Para cada altura da consulta, imprima dois números em uma linha. O primeiro seria a altura do mais alto
+chimpanzé que é mais curto que Luchu, e o próximo número seria a altura da menor
+chimpanzé que é mais alto que ele. Esses dois números devem ser separados por um único espaço. Sempre que é
+impossível encontrar qualquer uma dessas duas alturas, substitua essa altura por uma maiúscula "X".
+
+
+Sample Input
+4
+1 4 5 7
+4
+4 6 8 10
+Sample Output
+1 5
+5 7
+7 X
+7 X

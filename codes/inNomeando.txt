@@ -1,0 +1,9 @@
+2
+3
+2 a b
+3 a b
+4 a b
+3
+3 a b x
+2 a b c 
+4 a s e r

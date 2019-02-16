@@ -1,0 +1,67 @@
+
+11935 - Through the Desert
+Time limit: 1.000 seconds
+
+Imagine que você é um explorador tentando
+atravessar um deserto. Muitos perigos e obstáculos
+estão esperando no seu caminho. Sua vida
+depende do seu fiel jipe ​​velho
+um tanque de combustível grande o suficiente. Mas quão grande
+exatamente tem que ser? Calcule o
+menor volume necessário para atingir seu objetivo
+por outro lado.
+Os seguintes eventos descrevem o seu
+viagem:
+Consumo de combustível n
+significa que o seu caminhão precisa de n litros de
+gasolina por 100 km. n é um inteiro em
+o intervalo [1.30]. O consumo de combustível pode
+mudar durante a sua viagem, por exemplo, quando você está dirigindo para cima ou para baixo de uma montanha.
+Vazamento
+significa que o tanque de combustível do seu caminhão foi perfurado por um objeto pontiagudo. O tanque vai começar a vazar gasolina
+a uma taxa de 1 litro de combustível por quilômetro. Vazamentos múltiplos se somam e fazem com que o caminhão perca combustível
+ritmo mais rápido.
+No entanto, nem todos os eventos são problemáticos neste deserto. Os seguintes eventos aumentam suas chances
+de sobrevivência:
+Posto de gasolina
+deixa você encher seu tanque.
+Mecânico
+Corrige todos os vazamentos no seu tanque.
+E finalmente:
+Objetivo
+significa que você chegou com segurança ao final de sua jornada!
+
+
+Entrada
+A entrada consiste em uma série de casos de teste. Cada caso de teste consiste em no máximo 50 eventos. Cada evento é
+descrito por um inteiro, a distância (em quilômetros medida desde o início) onde o evento acontece,
+seguido pelo tipo de evento como acima.
+Em cada caso de teste, o primeiro evento é da forma "0 Consumo de combustível n" e o último evento é de
+a forma "d meta" (d é a distância até a meta).
+Os eventos são ordenados por ordem não decrescente desde o início e o evento "Meta" é
+sempre o último. Pode haver vários eventos à mesma distância - processá-los na ordem
+dado.
+A entrada é terminada por uma linha contendo "0 Consumo de combustível 0", que não deve ser processado.
+Saída
+Para cada caso de teste, imprima uma linha contendo o menor volume de tanque possível (em litros, com três dígitos
+precisão após o ponto decimal) que garantirá uma viagem bem-sucedida.
+
+Sample Input
+0 Fuel consumption 10
+100 Goal
+0 Fuel consumption 5
+100 Fuel consumption 30
+200 Goal
+0 Fuel consumption 20
+10 Leak
+25 Leak
+25 Fuel consumption 30
+50 Gas station
+70 Mechanic
+100 Leak
+120 Goal
+0 Fuel consumption 0
+Sample Output
+10.000
+35.000
+81.000

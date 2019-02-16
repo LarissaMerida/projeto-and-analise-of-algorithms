@@ -1,0 +1,62 @@
+2
+3
+2 a b
+3 a b
+4 a b
+3
+3 a b x
+2 a b c 
+4 a s e r
+
+
+
+
+Case #1:
+A
+B
+Case #2:
+A
+B
+S
+
+
+
+1
+4
+10 EUwx UrJoF OQ l QHCr jKMlS h P DGn KerhQ
+5 gY Tt rHDj P bTt
+9 fZQ Vrl At jHH rE tT Y isnmP QdTZo
+7 Hq j k QMR sEVwW rmpOO GcY
+
+
+1
+4
+1 a
+2 b c
+3 d f e
+4 a d f b
+
+2
+4
+4 Aa Ba Ca Da
+3 Ab Bb Cb
+1 Ad
+2 Ac Bc
+4
+1 a
+2 b c
+3 d f e
+4 a d f b
+
+
+Case #1:
+Ad
+Bc
+Cb
+Da
+Case #2:
+A
+B
+C
+D
+
